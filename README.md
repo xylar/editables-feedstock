@@ -1,11 +1,11 @@
-About editables
-===============
+About editables-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/editables-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pfmoore/editables
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/editables-feedstock/blob/main/LICENSE.txt)
 
 Summary: Editable installations
 
