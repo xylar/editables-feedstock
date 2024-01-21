@@ -11,15 +11,16 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
+    - python >=3.7
+    - flit-core >=3.3
     - pip
-    - python >=3.5
   run:
-    - python >=3.5
+    - python >=3.7
 
 test:
   imports:
@@ -39,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - ofek
+    - xylar
